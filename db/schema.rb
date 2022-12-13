@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_08_053605) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_13_082608) do
   create_table "hero_powers", force: :cascade do |t|
     t.string "strength"
     t.integer "power_id"
@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_08_053605) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "heros", force: :cascade do |t|
+  create_table "heroes", force: :cascade do |t|
     t.string "name"
     t.string "super_name"
     t.datetime "created_at", null: false
